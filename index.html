@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>آية حبيبة حمودي 💗</title>
+
+    <!-- Google Fonts including Cairo for Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Dancing+Script:wght@400;600;700&family=Kalam:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Initial Tap to Open Screen -->
+    <div id="initial-screen" class="initial-screen">
+        <div class="ambient-glow"></div>
+        <div class="gift-container">
+            <div class="gift-emoji">🎁</div>
+        </div>
+        <div class="text-container">
+            <h1 class="main-text">Hello my love, there's a special gift for you...</h1>
+            <p class="sub-text">آية حبيبة حمودي 💗 اضغطي على الشاشة</p>
+        </div>
+    </div>
+
+    <!-- Matrix Rain Canvas -->
+    <canvas id="matrix-rain"></canvas>
+
+    <!-- Shape Shifter Particle Text Canvas -->
+    <canvas class="canvas"></canvas>
+
+    <!-- Main Overlay Containers -->
+    <div class="overlay">
+        <!-- Starry Space Background -->
+        <div class="stars-container" id="starsContainer"></div>
+
+        <!-- Center Cute Cat Gif -->
+        <img id="gift-image" src="image/happy5.gif" alt="Gift Animation" />
+
+        <!-- Floating Sticky Note for Page Notes -->
+        <div class="content-display" id="contentDisplay">
+            <p id="contentText"></p>
+        </div>
+
+        <!-- Fireworks Container -->
+        <div class="firework-container" id="fireworkContainer"></div>
+
+        <!-- 3D Flipping Photo Album Book -->
+        <div class="book-container">
+            <div class="book" id="book"></div>
+        </div>
+
+        <!-- Music Control Play/Pause Button -->
+        <button class="music-control" id="musicControl" title="تشغيل / إيقاف الموسيقى">
+            ▶
+        </button>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="birthdayAudio" loop preload="auto">
+        <source src="music/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Main Logic Script -->
+    <script src="script.js"></script>
+</body>
+</html>
